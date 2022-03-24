@@ -1,6 +1,6 @@
 ## Oakberry
 
-A Simple Real Estate Company
+A Simple Real Estate Template
 
 [Live Preview](https://ldnysy8gze5uxjy2d9qk3q.on.drv.tw/Oakberry/)
 
