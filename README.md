@@ -10,7 +10,7 @@ Oakberry is a single page template. I have design this template inspired from a 
 
 #### Typography
 
-I have used Popins & Source Sans 3 fonts.
+I have used Poppins & Source Sans 3 fonts.
 
 #### Icons
 
