@@ -20,4 +20,4 @@ Font Awesome
 
 For Sliders I have used Swiperjs.
 
-__Thank you!
+**Thank you!**
