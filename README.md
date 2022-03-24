@@ -6,7 +6,7 @@ A Simple Real Estate Company
 
 ### Description
 
-Oakberry is a single page template. I have design this template inspired from a template at [Colorlib](https://colorlib.com). I did some minor changes in the design. It's a simple HTML, CSS & JS template.
+Oakberry is a single page template. I have design this template inspired from a template at [Colorlib](https://colorlib.com). I did some minor changes in the design. It's a simple HTML, CSS & JS fully responsive template.
 
 #### Typography
 
@@ -20,4 +20,4 @@ Font Awesome
 
 For Sliders I have used Swiperjs.
 
-\*\* Thank you!
+__Thank you!
