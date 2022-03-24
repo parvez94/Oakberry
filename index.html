@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Oakberry | Your Property is Our Priority</title>
+  </head>
+  <body>
+    <!-- Top header -->
+    <header id="header">
+      <div class="container info_area">
+        <!-- info -->
+        <div class="info">
+          <div class="info_icon">
+            <i class="fas fa-map"></i>
+          </div>
+          <div class="info_text">
+            <p>Free Call +1 234 456 78910</p>
+            <p>Call Us Now 24/7 Customer Support</p>
+          </div>
+        </div>
+
+        <!-- info -->
+        <div class="info">
+          <div class="info_icon">
+            <i class="fab fa-telegram-plane"></i>
+          </div>
+          <div class="info_text">
+            <p>Our Location</p>
+            <p>Suite 721 New York NY 10016</p>
+          </div>
+        </div>
+
+        <!-- info -->
+        <div class="info">
+          <div class="info_icon">
+            <i class="fas fa-wifi"></i>
+          </div>
+          <div class="info_text">
+            <p>Connect with us</p>
+            <p>Facebook Twitter Dribbble</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="container">
+        <div class="burger_menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <div class="nav_area">
+          <div class="logo">
+            <a href="index.html">
+              <span
+                >Oakberry
+                <small>Real Estate Agency</small>
+              </span>
+            </a>
+          </div>
+          <div class="navigation">
+            <ul class="nav_link">
+              <li>
+                <a href="#property">Properties</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#agents">Agents</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+            <div class="nav_btn">
+              <a href="#">Add Property</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Slider -->
+    <div class="swiper heroSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="overlay">
+            <div class="overlay_text">
+              <h2>Modern House Make Better Life</h2>
+              <p>
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in
+                which roasted parts of sentences fly into your mouth.
+              </p>
+              <a href="#" class="overlay_btn"
+                >Learn More
+                <i class="fas fa-long-arrow-alt-right"></i>
+              </a>
+            </div>
+          </div>
+          <img src="./assets/img/slider-1.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <div class="overlay">
+            <div class="overlay_text">
+              <h2>Your Property Is Our Priority</h2>
+              <p>
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in
+                which roasted parts of sentences fly into your mouth.
+              </p>
+              <a href="#" class="overlay_btn"
+                >Learn More
+                <i class="fas fa-long-arrow-alt-right"></i>
+              </a>
+            </div>
+          </div>
+          <img src="./assets/img/slider-2.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <div class="overlay">
+            <div class="overlay_text">
+              <h2>Let Your Home Be Unique & Stylist</h2>
+              <p>
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in
+                which roasted parts of sentences fly into your mouth.
+              </p>
+              <a href="#" class="overlay_btn"
+                >Learn More
+                <i class="fas fa-long-arrow-alt-right"></i>
+              </a>
+            </div>
+          </div>
+          <img src="./assets/img/slider-3.jpg" alt="" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Filter -->
+    <section id="filter" class="section_space">
+      <div class="container">
+        <form class="search_box">
+          <div class="form_control">
+            <label>Enter Keyword</label>
+            <div class="search_input">
+              <i class="fas fa-search"></i>
+              <input type="text" placeholder="Enter Keyword" />
+            </div>
+          </div>
+          <div class="form_control">
+            <label>Property Type</label>
+            <div class="search_input">
+              <i class="fas fa-chevron-down"></i>
+              <select>
+                <option value="">Residential</option>
+                <option value="">Commercial</option>
+                <option value="">Land</option>
+                <option value="">Industial</option>
+              </select>
+            </div>
+          </div>
+          <div class="form_control">
+            <label>Location</label>
+            <div class="search_input">
+              <i class="fas fa-map-marker-alt"></i>
+              <input type="text" placeholder="Search Location" />
+            </div>
+          </div>
+          <div class="form_control">
+            <label>Price Limit</label>
+            <div class="search_input">
+              <i class="fas fa-chevron-down"></i>
+              <select>
+                <option value="">$500</option>
+                <option value="">$1000</option>
+                <option value="">$5000</option>
+                <option value="">$10000</option>
+              </select>
+            </div>
+          </div>
+          <a href="#" class="form_control">Search</a>
+        </form>
+      </div>
+    </section>
+
+    <!-- Category -->
+    <section id="category" class="section_space">
+      <div class="container">
+        <div class="section_title">
+          <p>Oakberry Categories</p>
+          <h2>Explore Our Categories & Places</h2>
+        </div>
+        <div class="categories">
+          <div class="single_category">
+            <i class="far fa-building"></i>
+            <h3>Residential</h3>
+          </div>
+          <div class="single_category">
+            <i class="fas fa-store"></i>
+            <h3>Commercial</h3>
+          </div>
+          <div class="single_category">
+            <i class="fas fa-landmark"></i>
+            <h3>Land</h3>
+          </div>
+          <div class="single_category">
+            <i class="fas fa-industry"></i>
+            <h3>Industial</h3>
+          </div>
+        </div>
+        <div class="categories">
+          <div class="category_links">
+            <h3>New York</h3>
+            <a href="#">200 Properties</a>
+          </div>
+          <div class="category_links">
+            <h3>California</h3>
+            <a href="#">120 Properties</a>
+          </div>
+          <div class="category_links">
+            <h3>Florida</h3>
+            <a href="#">500 Properties</a>
+          </div>
+        </div>
+        <div class="categories">
+          <div class="category_links">
+            <h3>London</h3>
+            <a href="#">200 Properties</a>
+          </div>
+          <div class="category_links">
+            <h3>Charlotte</h3>
+            <a href="#">120 Properties</a>
+          </div>
+          <div class="category_links">
+            <h3>Tennessee</h3>
+            <a href="#">500 Properties</a>
+          </div>
+        </div>
+        <div class="categories">
+          <div class="category_links">
+            <h3>Texas</h3>
+            <a href="#">200 Properties</a>
+          </div>
+          <div class="category_links">
+            <h3>Orlando</h3>
+            <a href="#">120 Properties</a>
+          </div>
+          <div class="category_links">
+            <h3>Chicago</h3>
+            <a href="#">500 Properties</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Property -->
+    <section id="property" class="section_space">
+      <div class="container">
+        <div class="section_title">
+          <p>Our Properties</p>
+          <h2>Featured Properties</h2>
+        </div>
+        <div class="properties">
+          <div class="single_property">
+            <div class="thumbnail">
+              <img src="./assets/img/property-1.jpg" alt="" />
+              <span>$400,000</span>
+            </div>
+            <div class="property_content">
+              <div class="property_author">
+                <div class="author_info">
+                  <img src="./assets/img/author.jpg" alt="" />
+                  <span>Parvez</span>
+                </div>
+                <p>2 weeks ago</p>
+              </div>
+
+              <h4>Sunny Loft Property</h4>
+              <div class="property_details">
+                <span> <i class="fas fa-map-marker-alt"></i> Florida </span>
+                <span class="property_status">Sale</span>
+              </div>
+              <div class="property_info">
+                <span> <i class="fas fa-bed"></i> 3 </span>
+                <span> <i class="fas fa-bath"></i> 2 </span>
+                <span> <i class="fas fa-home"></i> 1300 sqft </span>
+              </div>
+            </div>
+          </div>
+          <div class="single_property">
+            <div class="thumbnail">
+              <img src="./assets/img/property-2.jpg" alt="" />
+              <span>$300,000</span>
+            </div>
+            <div class="property_content">
+              <div class="property_author">
+                <div class="author_info">
+                  <img src="./assets/img/author.jpg" alt="" />
+                  <span>Parvez</span>
+                </div>
+                <p>2 weeks ago</p>
+              </div>
+
+              <h4>Sunny Loft Property</h4>
+              <div class="property_details">
+                <span> <i class="fas fa-map-marker-alt"></i> Chicago </span>
+                <span class="property_status">Sale</span>
+              </div>
+              <div class="property_info">
+                <span> <i class="fas fa-bed"></i> 3 </span>
+                <span> <i class="fas fa-bath"></i> 2 </span>
+                <span> <i class="fas fa-home"></i> 1300 sqft </span>
+              </div>
+            </div>
+          </div>
+          <div class="single_property">
+            <div class="thumbnail">
+              <img src="./assets/img/property-3.jpg" alt="" />
+              <span>$450,000</span>
+            </div>
+            <div class="property_content">
+              <div class="property_author">
+                <div class="author_info">
+                  <img src="./assets/img/author.jpg" alt="" />
+                  <span>Parvez</span>
+                </div>
+                <p>2 weeks ago</p>
+              </div>
+
+              <h4>Sunny Loft Property</h4>
+              <div class="property_details">
+                <span> <i class="fas fa-map-marker-alt"></i> New York </span>
+                <span class="property_status">Sale</span>
+              </div>
+              <div class="property_info">
+                <span> <i class="fas fa-bed"></i> 3 </span>
+                <span> <i class="fas fa-bath"></i> 2 </span>
+                <span> <i class="fas fa-home"></i> 1300 sqft </span>
+              </div>
+            </div>
+          </div>
+          <div class="single_property">
+            <div class="thumbnail">
+              <img src="./assets/img/property-4.jpg" alt="" />
+              <span>$500,000</span>
+            </div>
+            <div class="property_content">
+              <div class="property_author">
+                <div class="author_info">
+                  <img src="./assets/img/author.jpg" alt="" />
+                  <span>Parvez</span>
+                </div>
+                <p>2 weeks ago</p>
+              </div>
+
+              <h4>Sunny Loft Property</h4>
+              <div class="property_details">
+                <span> <i class="fas fa-map-marker-alt"></i> Dallas </span>
+                <span class="property_status">Sale</span>
+              </div>
+              <div class="property_info">
+                <span> <i class="fas fa-bed"></i> 3 </span>
+                <span> <i class="fas fa-bath"></i> 2 </span>
+                <span> <i class="fas fa-home"></i> 1300 sqft </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section_space">
+      <div class="container">
+        <div class="section_title left_align">
+          <p>About Us</p>
+          <h2>Real Estate Company</h2>
+        </div>
+        <div class="about_content">
+          <div class="about_desc">
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean.
+            </p>
+            <div class="stats">
+              <div class="stats_item">
+                <h3>50</h3>
+                <p>Years of Experience</p>
+              </div>
+              <div class="stats_item">
+                <h3>400</h3>
+                <p>Qualified Realtors</p>
+              </div>
+              <div class="stats_item">
+                <h3>60</h3>
+                <p>Total Branches</p>
+              </div>
+            </div>
+          </div>
+          <img src="./assets/img/about.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact banner -->
+    <section id="contact_banner" class="section_space">
+      <div class="container">
+        <div class="contact_wrapper">
+          <div class="contact_content">
+            <h2>Find Best Place For Leaving</h2>
+            <p>24/7 satisfaction customer support</p>
+          </div>
+          <a href="#">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section id="testimonial" class="section_space">
+      <div class="container">
+        <div class="section_title">
+          <p>Testimonial</p>
+          <h2>Clients We Help</h2>
+        </div>
+
+        <div class="swiper reviewSwiper">
+          <div class="swiper-wrapper review">
+            <div class="swiper-slide">
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <div class="client">
+                <img src="./assets/img/author-1.jpg" alt="">
+                <div class="client_info">
+                  <h3>John</h3>
+                  <p>Frontend Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <div class="client">
+                <img src="./assets/img/author-3.jpg" alt="">
+                <div class="client_info">
+                  <h3>Jane</h3>
+                  <p>Frontend Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <div class="client">
+                <img src="./assets/img/author-4.jpg" alt="">
+                <div class="client_info">
+                  <h3>William</h3>
+                  <p>Frontend Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <div class="client">
+                <img src="./assets/img/author-2.jpg" alt="">
+                <div class="client_info">
+                  <h3>Rohit</h3>
+                  <p>Frontend Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Agents -->
+    <section id="agents" class="section_space">
+      <div class="container">
+        <div class="section_title">
+          <p>Our Agents</p>
+          <h2>Meet Our Agents</h2>
+        </div>
+
+        <div class="all_agents">
+          <div class="single_item">
+            <div class="thumbnail">
+              <img src="./assets/img/author-1.jpg" alt="" />
+            </div>
+            <div class="agent_content">
+                <h3>John Doe</h3>
+                <div class="agent_network">
+                  <div><i class="fab fa-facebook-f"></i></div>
+                  <div><i class="fab fa-twitter"></i></div>
+                  <div><i class="fab fa-google"></i></div>
+                  <div><i class="fab fa-instagram"></i></div>
+                </div>
+            </div>
+          </div>
+          <div class="single_item">
+            <div class="thumbnail">
+              <img src="./assets/img/author-2.jpg" alt="" />
+            </div>
+            <div class="agent_content">
+              <h3>Jane Doe</h3>
+              <div class="agent_network">
+                <div><i class="fab fa-facebook-f"></i></div>
+                <div><i class="fab fa-twitter"></i></div>
+                <div><i class="fab fa-google"></i></div>
+                <div><i class="fab fa-instagram"></i></div>
+              </div>
+          </div>
+          </div>
+          <div class="single_item">
+            <div class="thumbnail">
+              <img src="./assets/img/author-3.jpg" alt="" />
+            </div>
+            <div class="agent_content">
+              <h3>Maria</h3>
+              <div class="agent_network">
+                <div><i class="fab fa-facebook-f"></i></div>
+                <div><i class="fab fa-twitter"></i></div>
+                <div><i class="fab fa-google"></i></div>
+                <div><i class="fab fa-instagram"></i></div>
+              </div>
+          </div>
+          </div>
+          <div class="single_item">
+            <div class="thumbnail">
+              <img src="./assets/img/author-4.jpg" alt="" />
+            </div>
+            <div class="agent_content">
+              <h3>James</h3>
+              <div class="agent_network">
+                <div><i class="fab fa-facebook-f"></i></div>
+                <div><i class="fab fa-twitter"></i></div>
+                <div><i class="fab fa-google"></i></div>
+                <div><i class="fab fa-instagram"></i></div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section_space">
+      <div class="container">
+        <div class="section_title">
+          <p>Contact Us</p>
+          <h2>Have a Question?</h2>
+        </div>
+        <form class="contact_form">
+          <div class="form_control">
+            <input type="text" placeholder="Name" />
+          </div>
+          <div class="form_control">
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="form_control">
+            <input type="number" placeholder="Phone" />
+          </div>
+          <div class="form_control">
+            <textarea placeholder="Your Message"></textarea>
+          </div>
+          <div class="form_control">
+            <a href="#">Send Message</a>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer_top">
+        <div class="container footer_col">
+          <div class="single_col">
+            <div class="logo footer_title">
+              <a href="#">
+                <span
+                  >Oakberry
+                  <small>Real Estate Agency</small>
+                </span>
+              </a>
+            </div>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <div class="footer_network">
+              <div><i class="fab fa-facebook-f"></i></div>
+              <div><i class="fab fa-twitter"></i></div>
+              <div><i class="fab fa-instagram"></i></div>
+            </div>
+          </div>
+          <div class="single_col">
+            <h4 class="footer_title">Offers</h4>
+            <ul>
+              <li><a href="#">Properties</a></li>
+              <li><a href="#">Agents</a></li>
+              <li><a href="#">Location</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </div>
+          <div class="single_col">
+            <h4 class="footer_title">Company</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="single_col">
+            <h4 class="footer_title">Quick Links</h4>
+            <ul>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">User's Guide</a></li>
+              <li><a href="#">Support Center</a></li>
+              <li><a href="#">Press Info</a></li>
+            </ul>
+          </div>
+          <div class="single_col">
+            <h4 class="footer_title">Have a Question?</h4>
+            <div class="footer_address">
+              <div class="address_item">
+                <i class="far fa-map"></i>
+                <span>203 Fake St. Mountain View, San Francisco, California, USA</span>
+              </div>
+              <div class="address_item">
+                <i class="fas fa-phone-alt"></i>
+                <span>+1 234 456 78910</span>
+              </div>
+              <div class="address_item">
+                <i class="far fa-envelope"></i>
+                <span>info@yourdomain.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <div class="container">
+          <p>© 2022 All rights reserved | Inspired by Colorlib Design by <a href="#">Parvez</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="slider.js"></script>
+  </body>
+</html>
